@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Revalia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: 0;
+}
+/*trabalhando a div container header*/
+.container{
+    padding: 16px;
+    width: 97%;
+    background-color: blue;
+    border-radius: 2px;
+    box-shadow: 0 0 10px 7px #231e21;
+    
+}
+header.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header nav li{
+    display: inline;
+ 
+    font-size: 18px;
+}
+header nav li a{
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+
+.texto-logo {
+    background-image: linear-gradient(to bottom, red, yellow);
+   color: black;
+   background-clip: text;
+   -webkit-background-clip: text;
+   font-family: "Revalia", sans-serif; 
+   -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    font-size: 40px;
+  
+}
+.texto-logo3 a{
+    font-family: "Revalia", sans-serif; 
+     text-decoration: none;
+     color: aliceblue;
+     font-size: 20px;
+ }
+ .texto-logo3 a{
+    transform: translateX(800px);
+    margin-top: -30px;
+    padding: 0 ;
+    position: absolute;
+}
+.texto-logo4 a{
+    font-family: "Revalia", sans-serif; 
+     text-decoration: none;
+     color: aliceblue;
+     font-size: 20px;
+ }
+ .texto-logo4 a{
+    transform: translateX(1000px);
+    margin-top: -30px;
+    padding: 0 ;
+    position: absolute;
+}
+/*termina aqui trabalhando a div container header*/
+
+
+body {
+    min-height: 100%;
+   
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    background-color: hsl(203, 54%, 83%);
+   
+    
+    background-color: #ecf0f1;;
+}
+
+/* trabalhando a div com a imagem imagem da loja */
+.img-container{
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border: 2px solid #888585;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 25px;
+  
+   transform: translateX(100px);
+ }
+ 
+ .img-container img{
+    width: 100%;
+    height: 100%;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+ }
+ 
+ .img-container:hover img{
+    -webkit-transform: scale(2.1);
+    transform: scale(1.5
+    );
+ }
+ /* termina aqui o trabalhando a div com a imagem imagem da loja */
+ #about{
+    display: inline;
+ }
+.sob_loja{
+    transform: translateX(600px);
+    justify-content: flex-start;
+    position: absolute;
+    margin-top: -300px;
+   
+}
+ .brands_list img{
+    height: 24px;
+    padding: 40px;
+
+}
+.brands_list li{
+    display: inline;
+    margin-right: 8px;
+}
+.sob_loja  h2{ font-family: "Revalia", sans-serif; 
+color: blue;}
+
+#contact{
+    left: 45px;
+    transform: translateX(25px);
+   
+}
+#contact p{
+    color: blue;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    transform: translateX(150px);font-weight: 700;
+}
+
+#contact .container{
+    display: block;
+ position: absolute;
+ 
+  
+}
+#contact_methods{
+    display: flex;
+    justify-content: space-between;
+}
+.section {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 80px;
+    transform: translateX(150px);
+}
+
+
+form{
+    transform: translateX(100px);
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+form textarea{
+    resize: none;
+    height: 180px;
+}
+form button{
+    background-color: #182c61;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+    width: 180px;
+
+}
+
+form button:hover{
+    background-color: #182c61;
+}
+input:focus, textarea:focus{
+    outline-color: #182c61;
+}
+.redes_sociais{
+    transform: translateX(400px);
+    justify-content: flex-start;
+    position: absolute;
+    margin-top: -450px;
+   
+}
+.social_links img {
+    height: 35px;
+    transform: translateX(60px);
+
+}
+.social_links li{
+    display: inline;
+    margin-right: 8px;
+    padding: 15px;
+}
+.social_links li a {
+    text-decoration: none;
+}
+.redes_sociais h3{
+    font-family: "Playwrite GB S", cursive;
+    text-shadow: 0.1em 0.1em 0.05em #c75407;
+    font-size: 35px;
+    
+}
+.endereco{
+    transform: translateX(760px);
+    margin-top: -430px;
+    border: 1px solid rgb(16, 16, 237);
+    width: 350px;
+    height: 100px;
+    text-align: center;
+    box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, 
+    rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px,
+     rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, 
+     rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
+
+
+    
+}
+.endereco h3{
+margin-top: 10px;
+}
